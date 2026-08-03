@@ -1,18 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Car Dealership</title>
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <h1>About Us</h1>
-    <p>Welcome to Cars Dealership!</p>
-    <div class="card">
-        <img src="https://via.placeholder.com/150" alt="Team Member">
-        <h3>John Doe</h3>
-        <p>Role: Branch Manager</p>
-        <p>Email: john.doe@example.com</p>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Car Dealership</div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Us Section -->
+    <div class="container" style="padding: 40px; font-family: Arial, sans-serif;">
+        <div style="text-align: center; margin-bottom: 40px;">
+            <h1>About Us</h1>
+            <p style="font-size: 18px; color: #555; max-width: 800px; margin: 0 auto; line-height: 1.6;">
+                Welcome to Car Dealership Application, your trusted destination for finding the best pre-owned and brand-new cars. We are committed to providing exceptional customer service, transparent pricing, and a seamless car-buying experience. Whether you are looking for an economical family sedan, a powerful SUV, or a luxury vehicle, our expert team is here to help you drive away with confidence.
+            </p>
+        </div>
+
+        <!-- Team Section -->
+        <h2 style="text-align: center; margin-bottom: 30px;">Our Expert Team</h2>
+        <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+            
+            <!-- Team Member 1 -->
+            <div style="border: 1px solid #ddd; border-radius: 8px; padding: 20px; width: 300px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80" alt="Sarah Johnson" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
+                <h3>Sarah Johnson</h3>
+                <p style="color: #007bff; font-weight: bold; margin: 5px 0;">Chief Executive Officer</p>
+                <p style="font-size: 14px; color: #666; margin-bottom: 15px;">Sarah has over 15 years of leadership experience in the automotive industry, driving innovation and customer satisfaction.</p>
+                <p style="font-size: 14px; color: #333;"><strong>Email:</strong> sarah.johnson@cardealership.com</p>
+            </div>
+
+            <!-- Team Member 2 -->
+            <div style="border: 1px solid #ddd; border-radius: 8px; padding: 20px; width: 300px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80" alt="Michael Smith" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
+                <h3>Michael Smith</h3>
+                <p style="color: #007bff; font-weight: bold; margin: 5px 0;">Lead Sales Manager</p>
+                <p style="font-size: 14px; color: #666; margin-bottom: 15px;">Michael specializes in customer relations and vehicle acquisition, ensuring every client gets the best deal possible.</p>
+                <p style="font-size: 14px; color: #333;"><strong>Email:</strong> michael.smith@cardealership.com</p>
+            </div>
+
+            <!-- Team Member 3 -->
+            <div style="border: 1px solid #ddd; border-radius: 8px; padding: 20px; width: 300px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&auto=format&fit=crop&q=80" alt="Emily Davis" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
+                <h3>Emily Davis</h3>
+                <p style="color: #007bff; font-weight: bold; margin: 5px 0;">Customer Support Lead</p>
+                <p style="font-size: 14px; color: #666; margin-bottom: 15px;">Emily manages post-purchase support and makes sure all client inquiries are resolved smoothly and efficiently.</p>
+                <p style="font-size: 14px; color: #333;"><strong>Email:</strong> emily.davis@cardealership.com</p>
+            </div>
+
+        </div>
     </div>
 </body>
 </html>
