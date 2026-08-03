@@ -2,21 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Car Dealership</title>
+    <!-- Required Stylesheets -->
     <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
 <body>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about">About Us</a>
-        <a href="/contact" class="active">Contact Us</a>
+    <!-- Navigation Bar with Contact Us active -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Car Dealership</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <h1>Contact Us</h1>
-    <p>Contact our dealership team for support and sales inquiries.</p>
-    <div>
-        <p><strong>Customer Service:</strong> support@dealership.com</p>
-        <p><strong>Phone:</strong> +1-800-555-0199</p>
-        <p><strong>Address:</strong> 123 Main Street, Suite 100, Cityville</p>
+
+    <!-- Contact Us Section -->
+    <div class="container mt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1>Contact Us</h1>
+                <p class="lead">We would love to hear from you! Reach out to us through any of the details below or visit our showroom.</p>
+                <p><strong>Email:</strong> support@cardealership.com</p>
+                <p><strong>Phone:</strong> +1 (800) 555-1234</p>
+                <p><strong>Address:</strong> 123 Auto Drive, Car City, State 12345</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?w=500&auto=format&fit=crop&q=80" alt="Contact Us Showroom" class="img-fluid rounded shadow">
+            </div>
+        </div>
     </div>
 </body>
 </html>
